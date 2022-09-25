@@ -23,6 +23,10 @@ namespace Practic1
                 {
                     str += ch;
                 }
+                if (char.IsSeparator(ch))
+                {
+                    str += ch;
+                }
             }
 
             if (digit != "")
